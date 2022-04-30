@@ -49,13 +49,13 @@ Reach Goals:
 ![ERD](./ReadMePhotos/CapstoneERD.png)
 
 ## Wireframes:
-[SignInPage](./ReadMePhotos/SignInPage.png)
-[HomePage](./ReadMePhotos/HomePage.png)
-[TripCreatePage](./ReadMePhotos/TripCreateButton.png)
-[AddLocationPage](./ReadMePhotos/AddLocation.png)
-[AddThingstoDoPage](./ReadMePhotos/AddThingtoDo.png)
-[ProfilePage](./ReadMePhotos/Profile.png)
-[ExplorePage](./ReadMePhotos/ExploreLocation.png)
+![SignInPage](./ReadMePhotos/SignInPage.png)
+![HomePage](./ReadMePhotos/HomePage.png)
+![TripCreatePage](./ReadMePhotos/TripCreateButton.png)
+![AddLocationPage](./ReadMePhotos/AddLocation.png)
+![AddThingstoDoPage](./ReadMePhotos/AddThingtoDo.png)
+![ProfilePage](./ReadMePhotos/Profile.png)
+![ExplorePage](./ReadMePhotos/ExploreLocation.png)
 
 ## Technologies Used:
 * [Django](http://djangoproject.com)
