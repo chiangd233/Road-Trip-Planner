@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import todo
+from .models import RoadTrip, ThingsTodo
 # Register your models here.
 
-admin.site.register(todo)
+admin.site.register(RoadTrip)
+admin.site.register(ThingsTodo)

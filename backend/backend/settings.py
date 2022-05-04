@@ -82,8 +82,8 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'roadtrip',
     }
 }
 
@@ -128,8 +128,8 @@ STATICFILES_DIRS = [
 STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static_cdn')
 
-GOOGLE_API_KEY = 'AIzaSyCLtgZunxik3KZ5OgX1nDsY7yiOZ4L6Dbo'
-RECAPTCHA_KEY = '6LdcNrQfAAAAAFPuJbPKIkbt7-JBvwdQSMtHLzH8'
+GOOGLE_API_KEY = str(os.getenv('GOOGLE_API_KEY'))
+RECAPTCHA_KEY = str(os.getenv('RECAPTCHA_KEY'))
 RECAPTCHA_SECRET_KEY = str(os.getenv('API_SECRET_KEY'))
 
 # Default primary key field type
