@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import todo
+from .models import RoadTrip, Location
 
-class TodoSerializer(serializers.ModelSerializer):
+class RoadTripSerializer(serializers.ModelSerializer):
     class Meta:
-        model = todo
-        fields = ('id', 'title', 'description', 'completed')
+        model = RoadTrip
+        fields = ('id', 'name', 'time', 'location')
