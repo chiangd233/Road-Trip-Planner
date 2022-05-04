@@ -21,7 +21,8 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 router = routers.DefaultRouter()
-router.register(r'todos', views.TodoView, 'todo')
+router.register(r'roadtrip', views.RoadTripView, 'roadtrip')
+router.register(r'thingstodo', views.ThingsTodoView, 'thingstodo')
 
 urlpatterns = [
     
